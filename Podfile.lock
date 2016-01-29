@@ -1,0 +1,15 @@
+PODS:
+  - SWRevealViewController (2.3.0)
+  - Typhoon (3.4.5):
+    - Typhoon/no-arc (= 3.4.5)
+  - Typhoon/no-arc (3.4.5)
+
+DEPENDENCIES:
+  - SWRevealViewController
+  - Typhoon
+
+SPEC CHECKSUMS:
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  Typhoon: 200100687af3233ec5ed019064df3c9ffe350475
+
+COCOAPODS: 0.39.0
