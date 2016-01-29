@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  Module1ViewController.swift
 //  TyphoonPrototype
 //
 //  Created by Gabriel Horacio Cutrini on 1/29/16.
@@ -8,18 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class Module1ViewController: FrontViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        title = "Module 1"
+        print("Module 1 viewDidLoad()")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-

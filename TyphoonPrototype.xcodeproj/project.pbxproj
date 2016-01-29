@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		990BD77920D7E6E17D0AF71C /* Pods_TyphoonPrototype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8155310A6E1B567F14A18F7F /* Pods_TyphoonPrototype.framework */; };
 		9D4274931C5B110700A75997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4274921C5B110700A75997 /* AppDelegate.swift */; };
-		9D4274951C5B110700A75997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4274941C5B110700A75997 /* ViewController.swift */; };
 		9D4274981C5B110700A75997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4274961C5B110700A75997 /* Main.storyboard */; };
 		9D42749A1C5B110700A75997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4274991C5B110700A75997 /* Assets.xcassets */; };
 		9D42749D1C5B110700A75997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D42749B1C5B110700A75997 /* LaunchScreen.storyboard */; };
 		9D4274A81C5B110700A75997 /* TyphoonPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4274A71C5B110700A75997 /* TyphoonPrototypeTests.swift */; };
 		9D4274B31C5B110700A75997 /* TyphoonPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4274B21C5B110700A75997 /* TyphoonPrototypeUITests.swift */; };
+		9D4274C21C5B152B00A75997 /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4274C11C5B152B00A75997 /* ApplicationAssembly.swift */; };
+		9D4274C61C5B159000A75997 /* Module2Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4274C51C5B159000A75997 /* Module2Assembly.swift */; };
+		9D4274CF1C5B171900A75997 /* Module2Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4274CE1C5B171900A75997 /* Module2Wireframe.swift */; };
+		9D4274D11C5B17AF00A75997 /* Module1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4274D01C5B17AF00A75997 /* Module1ViewController.swift */; };
+		9D4274D31C5B17C800A75997 /* Module2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4274D21C5B17C800A75997 /* Module2ViewController.swift */; };
+		9D4274D71C5B1D9E00A75997 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4274D61C5B1D9E00A75997 /* MenuViewController.swift */; };
+		9D4274DB1C5B220800A75997 /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4274DA1C5B220800A75997 /* FrontViewController.swift */; };
+		9D4274DD1C5B251A00A75997 /* MenuAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4274DC1C5B251A00A75997 /* MenuAssembly.swift */; };
+		9D4274DF1C5B257200A75997 /* MenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4274DE1C5B257200A75997 /* MenuPresenter.swift */; };
+		9D4274E11C5B261100A75997 /* MenuWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4274E01C5B261100A75997 /* MenuWireframe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +48,6 @@
 		8155310A6E1B567F14A18F7F /* Pods_TyphoonPrototype.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TyphoonPrototype.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D42748F1C5B110700A75997 /* TyphoonPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyphoonPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4274921C5B110700A75997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D4274941C5B110700A75997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9D4274971C5B110700A75997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D4274991C5B110700A75997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D42749C1C5B110700A75997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +58,16 @@
 		9D4274AE1C5B110700A75997 /* TyphoonPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyphoonPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4274B21C5B110700A75997 /* TyphoonPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyphoonPrototypeUITests.swift; sourceTree = "<group>"; };
 		9D4274B41C5B110700A75997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D4274C11C5B152B00A75997 /* ApplicationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationAssembly.swift; path = Assemblies/ApplicationAssembly.swift; sourceTree = "<group>"; };
+		9D4274C51C5B159000A75997 /* Module2Assembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Module2Assembly.swift; path = Assemblies/Module2Assembly.swift; sourceTree = "<group>"; };
+		9D4274CE1C5B171900A75997 /* Module2Wireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Module2Wireframe.swift; path = "Modules/Module 2/Module2Wireframe.swift"; sourceTree = "<group>"; };
+		9D4274D01C5B17AF00A75997 /* Module1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Module1ViewController.swift; path = "Modules/Module 1/User Interface/Module1ViewController.swift"; sourceTree = "<group>"; };
+		9D4274D21C5B17C800A75997 /* Module2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Module2ViewController.swift; path = "Modules/Module 2/User Interface/Module2ViewController.swift"; sourceTree = "<group>"; };
+		9D4274D61C5B1D9E00A75997 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = "Modules/Menu/User Interface/MenuViewController.swift"; sourceTree = "<group>"; };
+		9D4274DA1C5B220800A75997 /* FrontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FrontViewController.swift; path = "Common/User Interface/FrontViewController.swift"; sourceTree = "<group>"; };
+		9D4274DC1C5B251A00A75997 /* MenuAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuAssembly.swift; path = Assemblies/MenuAssembly.swift; sourceTree = "<group>"; };
+		9D4274DE1C5B257200A75997 /* MenuPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuPresenter.swift; path = "Modules/Menu/User Interface/MenuPresenter.swift"; sourceTree = "<group>"; };
+		9D4274E01C5B261100A75997 /* MenuWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuWireframe.swift; path = Modules/Menu/MenuWireframe.swift; sourceTree = "<group>"; };
 		FB76F63892A610A9D0B65326 /* Pods-TyphoonPrototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TyphoonPrototype.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TyphoonPrototype/Pods-TyphoonPrototype.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,8 +130,10 @@
 		9D4274911C5B110700A75997 /* TyphoonPrototype */ = {
 			isa = PBXGroup;
 			children = (
+				9D4274C71C5B15EE00A75997 /* Modules */,
+				9D4274D81C5B21CB00A75997 /* Common */,
+				9D4274C01C5B14F800A75997 /* Assemblies */,
 				9D4274921C5B110700A75997 /* AppDelegate.swift */,
-				9D4274941C5B110700A75997 /* ViewController.swift */,
 				9D4274961C5B110700A75997 /* Main.storyboard */,
 				9D4274991C5B110700A75997 /* Assets.xcassets */,
 				9D42749B1C5B110700A75997 /* LaunchScreen.storyboard */,
@@ -138,6 +158,93 @@
 				9D4274B41C5B110700A75997 /* Info.plist */,
 			);
 			path = TyphoonPrototypeUITests;
+			sourceTree = "<group>";
+		};
+		9D4274C01C5B14F800A75997 /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				9D4274C11C5B152B00A75997 /* ApplicationAssembly.swift */,
+				9D4274DC1C5B251A00A75997 /* MenuAssembly.swift */,
+				9D4274C51C5B159000A75997 /* Module2Assembly.swift */,
+			);
+			name = Assemblies;
+			sourceTree = "<group>";
+		};
+		9D4274C71C5B15EE00A75997 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9D4274D41C5B1D6800A75997 /* Menu */,
+				9D4274C81C5B161900A75997 /* Module 1 */,
+				9D4274C91C5B162B00A75997 /* Module 2 */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		9D4274C81C5B161900A75997 /* Module 1 */ = {
+			isa = PBXGroup;
+			children = (
+				9D4274CA1C5B165300A75997 /* User Interface */,
+			);
+			name = "Module 1";
+			sourceTree = "<group>";
+		};
+		9D4274C91C5B162B00A75997 /* Module 2 */ = {
+			isa = PBXGroup;
+			children = (
+				9D4274CB1C5B166E00A75997 /* User Interface */,
+				9D4274CE1C5B171900A75997 /* Module2Wireframe.swift */,
+			);
+			name = "Module 2";
+			sourceTree = "<group>";
+		};
+		9D4274CA1C5B165300A75997 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9D4274D01C5B17AF00A75997 /* Module1ViewController.swift */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		9D4274CB1C5B166E00A75997 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9D4274D21C5B17C800A75997 /* Module2ViewController.swift */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		9D4274D41C5B1D6800A75997 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				9D4274D51C5B1D6F00A75997 /* User Interface */,
+				9D4274E01C5B261100A75997 /* MenuWireframe.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		9D4274D51C5B1D6F00A75997 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9D4274D61C5B1D9E00A75997 /* MenuViewController.swift */,
+				9D4274DE1C5B257200A75997 /* MenuPresenter.swift */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		9D4274D81C5B21CB00A75997 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9D4274D91C5B21E700A75997 /* User Interface */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		9D4274D91C5B21E700A75997 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9D4274DA1C5B220800A75997 /* FrontViewController.swift */,
+			);
+			name = "User Interface";
 			sourceTree = "<group>";
 		};
 		EC5A12F768343F18782298FE /* Pods */ = {
@@ -331,8 +438,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D4274951C5B110700A75997 /* ViewController.swift in Sources */,
+				9D4274CF1C5B171900A75997 /* Module2Wireframe.swift in Sources */,
+				9D4274D71C5B1D9E00A75997 /* MenuViewController.swift in Sources */,
+				9D4274C61C5B159000A75997 /* Module2Assembly.swift in Sources */,
+				9D4274C21C5B152B00A75997 /* ApplicationAssembly.swift in Sources */,
+				9D4274DB1C5B220800A75997 /* FrontViewController.swift in Sources */,
+				9D4274DD1C5B251A00A75997 /* MenuAssembly.swift in Sources */,
+				9D4274D31C5B17C800A75997 /* Module2ViewController.swift in Sources */,
+				9D4274D11C5B17AF00A75997 /* Module1ViewController.swift in Sources */,
+				9D4274E11C5B261100A75997 /* MenuWireframe.swift in Sources */,
 				9D4274931C5B110700A75997 /* AppDelegate.swift in Sources */,
+				9D4274DF1C5B257200A75997 /* MenuPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
